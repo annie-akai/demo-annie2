@@ -1,0 +1,12 @@
+cd Downloads
+  337  git clone https://github.com/annie-akai/mvn-nexus-sonar-practice.git
+  338  ls
+  339  cd mvn-nexus-sonar-practice
+  340  git status
+  341  git add
+  342  git add .
+  343  git status
+  344  git restore --staged JavaWebApp/.mvn/wrapper/file demo
+  345  git status
+  346  git commit -m "updated a file"
+  347  git push
